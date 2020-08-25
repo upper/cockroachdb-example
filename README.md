@@ -36,7 +36,7 @@ make bank-database-secure
 
 Edit the `main.go` file and add options for secure connection:
 
-```
+```go
 var settings = cockroachdb.ConnectionURL{
 	Host:     "localhost",
 	Database: "bank",
